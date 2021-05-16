@@ -1,0 +1,17 @@
+App\Entity\Category:
+  category_1:
+    title: "category 1"
+    description: "This is the first category"
+  category_2:
+    title: "category 2"
+    description: "This is the second category"
+    parent: "@category_1"
+  category_3:
+    title: "category 3"
+    description: "This is the third category"
+    parent: "@category_2" 
+  category_4:
+    title: "category 4"
+    description: "This is the fourth category"
+    parent: "@category_3"  
+    
